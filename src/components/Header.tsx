@@ -3,23 +3,23 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="flex justify-between">
-      <div className="mt-4 ml-4">
+    <div className="justify-between z-10">
+      <div className="mt-3.5 ml-4 absolute">
         <Image
           src="/soller_logo.svg"
           alt="Soller Logo"
-          width={120}
-          height={120}
+          width={81}
+          height={36}
         />
       </div>
 
-      <div className="">
+      <div className="object-fill w-full z-0 relative">
           <Image
-            src="/worker.png"
+            src="/workerImage.png"
             alt="Worker image"
-            width={383.02}
-            height={233.68}
-            className="sm:w-[673px] sm:h-[694px]"
+            width={375}
+            height={333}
+            className="sm:w-[673px] sm:h-[694px] "
           />
         </div>
       </div>
