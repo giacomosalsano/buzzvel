@@ -8,7 +8,7 @@ export default function Presentation() {
     <div className="flex flex-col gap-y-6 items-center text-center">
     <div className="">
       <h1 className="text-black text-[40px] font-bold text-balance">Get the Sun to Power Your Home</h1>
-      <h2 className="text-lg">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h2>
+      <h3 className="text-lg">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
     </div>
       <Button color="primary">Request a quote</Button>
     </div>
@@ -24,7 +24,7 @@ export default function Presentation() {
         </span>
         <div>
           <span>
-            <h5 className="text-md font-bold">
+            <h5 className="text-lg">
               Rwanda Melfor
             </h5>
           </span>
