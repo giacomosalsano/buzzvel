@@ -15,10 +15,10 @@ export default function Introduction() {
         </p>
       </div>
       <div className="absolute">
-        <Image className="relative bottom-16 right-12 z-0" src="/circles.svg" alt="Circles Illustration" width={702.43} height={284} />
+        <Image className="relative bottom-16 right-12 z-0" src="/circles.svg" alt="Circles illustration" width={702.43} height={284} />
       </div>
       <div className="items-end absolute">
-          <Image className="relative top-16 right-0 z-10" src="/desktop.svg" alt="Desktop Illustration" width={358} height={205} />
+          <Image className="relative top-16 right-0 z-10" src="/desktop.svg" alt="Desktop illustration" width={358} height={205} />
       </div>
       
     </div>  
