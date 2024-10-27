@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Introduction() {
   return (
-    <div className="px-12 gap-x-16">
+    <div className="pt-12 gap-x-16">
       <div className="flex flex-col gap-y-6 items-center text-center">
         <span className="gap-x-2">
           <p className="text-orange text-base font-medium"> No more waste

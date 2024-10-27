@@ -4,21 +4,30 @@ import Image from "next/image";
 
 export default function Presentation() {
   return (
-  <div className="mx-4 my-12 flex flex-col gap-y-16">
+  <div className="flex flex-col px-4 pb-12">
+    <div className="z-0 relative bottom-12 left-8">
+          <Image
+            src="/workerImage.png"
+            alt="Worker image"
+            width={375}
+            height={333}
+            className="sm:w-[673px] sm:h-[694px] "
+          />
+    </div>
     <div className="flex flex-col gap-y-6 items-center text-center">
-    <div className="">
-      <h1 className="text-black text-[40px] font-semibold text-balance">Get the Sun to Power Your Home</h1>
-      <h3 className="text-lg w-[343px]">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
+      <div className="flex flex-col gap-y-6">
+        <h1 className="text-black text-[40px] font-semibold text-balance">Get the Sun to Power Your Home</h1>
+        <h3 className="text-lg w-[343px]">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
+      </div>
+        <Button color="primary">Request a quote</Button>
     </div>
-      <Button color="primary">Request a quote</Button>
-    </div>
-    <div className="gap-4 flex flex-col">
+    <div className="flex flex-col pt-12 gap-y-4">
       <div className="text-left">
         <p>
           “Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”
         </p>
       </div>
-      <div className="flex gap-x-4 items-center">
+      <div className="flex gap-x-4 items-center ">
         <span className="flex-none">
           <Image src="/user_image_profile.png" alt="User image profile" width={64} height={64} />
         </span>

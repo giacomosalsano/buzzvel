@@ -12,16 +12,6 @@ export default function Header() {
           height={36}
         />
       </div>
-
-      <div className="z-0 relative">
-          <Image
-            src="/workerImage.png"
-            alt="Worker image"
-            width={375}
-            height={333}
-            className="sm:w-[673px] sm:h-[694px] "
-          />
-        </div>
-      </div>
+    </div>
   );
 }
