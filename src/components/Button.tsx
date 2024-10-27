@@ -2,14 +2,14 @@ import React from "react";
 import { tv } from "tailwind-variants";
 import { FiArrowRight } from "react-icons/fi";
 
-interface ButtonProps {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size?: "sm" | "md" | "lg";
   color?: "primary" | "secondary";
   children: React.ReactNode;
 }
 
 const button = tv({
-  base: "rounded-full px-6 py-5 gap-6 text-2xl font-bold transition-colors duration-200 focus:outline-none flex items-center",
+  base: "rounded-full px-6 py-5 gap-6 text-2xl font-semibold transition-colors duration-200 focus:outline-none flex items-center",
   variants: {
     size: {
       xs: "text-xs px-2 py-1",
@@ -20,8 +20,8 @@ const button = tv({
       "2xl": "text-2xl px-12 py-6",
     },
     color: {
-      primary: "bg-white text-primary border border-primary hover:bg-primary hover:text-secondary",
-      secondary: "bg-white border border-secondary text-secondary hover:bg-secondary hover:text-primary",
+      primary: "border-2 text-primary border-primary hover:bg-primary hover:text-secondary",
+      secondary: "border-2 border-secondary text-secondary hover:bg-secondary hover:text-primary",
     },
   },
   defaultVariants: {

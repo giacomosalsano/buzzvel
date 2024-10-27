@@ -9,9 +9,9 @@ export default function Services() {
         <span className="gap-x-2">
           <p className="text-orange text-base font-medium"> Services
           </p>
-          <h2 className="text-black text-[32px] font-extrabold text-balance">Personalized services</h2>
+          <h2 className="text-black text-[32px] font-semibold text-balance">Personalized services</h2>
         </span>
-        <p className="text-base ">
+        <p className="text-base w-[343px]">
           Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. 
           Auctor turpis semper id sit ornare maecenas lectus sed.
         </p>

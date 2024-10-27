@@ -7,8 +7,8 @@ export default function Presentation() {
   <div className="mx-4 my-12 flex flex-col gap-y-16">
     <div className="flex flex-col gap-y-6 items-center text-center">
     <div className="">
-      <h1 className="text-black text-[40px] font-bold text-balance">Get the Sun to Power Your Home</h1>
-      <h3 className="text-lg">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
+      <h1 className="text-black text-[40px] font-semibold text-balance">Get the Sun to Power Your Home</h1>
+      <h3 className="text-lg w-[343px]">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
     </div>
       <Button color="primary">Request a quote</Button>
     </div>
