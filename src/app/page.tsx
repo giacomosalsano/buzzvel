@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Introduction from "@/components/Introduction";
 import Presentation from "@/components/Presentation";
 import Services from "@/components/Services";
-
+import SecondServices from "@/components/SecondServices";
 export default function Home() {
   return (
     <div className="items-center min-h-screen ">
@@ -10,6 +10,7 @@ export default function Home() {
       <Presentation />
       <Introduction />
       <Services />
+      <SecondServices />
     </div>
   );
 }
