@@ -20,7 +20,7 @@ export default function LastPage() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center mt-16 relative -left-6 w-[358px] drop-shadow-sm sm:right-64 sm:w-[640px] ">
+      <div className="flex justify-center mt-16 relative -left-6 w-[358px] drop-shadow-sm sm:right-64 sm:w-[640px] md:w-[768px] ">
         <Image src="/macbook.svg" alt="Mackbook illustration" width={800} height={400} />
       </div>
     </div>
