@@ -12,7 +12,7 @@ interface TestimonyProps {
 
 export default function Testimony({  testimony, imageProfile, name, description, className}: TestimonyProps) {
   return (
-    <div className={`flex w-[343px] bg-white rounded-xl p-8 hover:py-16 relative -right-5 shadow-md sm:right-0 md:h-[490px] md:flex md:flex-row ${className}`}>
+    <div className={`flex w-[343px] bg-white rounded-xl p-8 hover:py-16 relative -right-5 shadow-md sm:right-0 md:h-[490px] ${className}`}>
         <div className="flex flex-col gap-y-4">
           <FiAlertCircle size={64} className="text-gray-400"/>
           <div className="flex ">
@@ -20,7 +20,7 @@ export default function Testimony({  testimony, imageProfile, name, description,
           </div>
           <div className="flex gap-x-4 items-center w-[294px] align-baseline pt-4">
               <span className="">
-                <Image className="rounded-full sm:w-[64px] sm:h-[64px]" src={`/${imageProfile}.png`} alt="User image profile" width={48} height={48} />
+                <Image className="rounded-full sm:w-[64px] sm:h-[64px]" src={`/${imageProfile}.svg`} alt="User image profile" width={48} height={48} />
               </span>
               <div className="flex flex-col items-start ">
                 <span>

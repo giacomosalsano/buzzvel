@@ -4,7 +4,7 @@ import Section from "./Section";
 
 export default function Services() {
   return (
-    <div className="pb-12 mx-4 mt-16">
+    <div className="pb-12  mt-16">
       <div className="flex flex-col gap-y-6 items-center text-center mb-16">
         <span className="gap-x-2">
           <p className="text-orange text-base font-medium"> Services
@@ -27,7 +27,7 @@ export default function Services() {
         </div>
       </div>
       <div className="">
-        <Image className="relative -right-4 sm:w-[523px] sm:h-[850px] sm:left-36" src="/phone3.svg" alt="Phone illustration" width={491} height={491} />
+        <Image className="sm:place-self-end" src="/phone3.svg" alt="Phone illustration" width={491} height={491} />
       </div>
       
     </div> 

@@ -5,23 +5,23 @@ import Image from "next/image";
 export default function Presentation() {
   return (
   <div className="flex flex-col pb-12">
-    <div className="relative bottom-32 sm:bottom-32 sm:left-1">
+    <div className="relative bottom-32 sm:place-self-end">
           <Image
-            src="/workerImage.svg"
+            src="/workerRight.svg"
             alt="Worker image"
             width={375}
             height={333}
-            className="sm:w-[673px] sm:h-[694px] "
+            className="sm:w-[540px] sm:h-[540px] "
           />
     </div>
     <div className="flex flex-col gap-y-6 items-center text-center -mt-20 sm:-mt-24">
       <div className="flex flex-col gap-y-6 items-center text-center">
-        <h1 className="text-black text-[40px] font-semibold text-balance sm:w-[600px]">Get the Sun to Power Your Home</h1>
-        <h3 className="text-lg w-[343px] ">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
+        <h1 className="text-black text-[40px] font-semibold text-balance sm:w-[400px]">Get the Sun to Power Your Home</h1>
+        <h3 className="text-lg w-[343px]">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
       </div>
         <Button color="primary">Request a quote</Button>
     </div>
-    <div className="flex flex-col pt-12 gap-y-4 m-6 sm:m-12 sm:w-[343px] place-self-center">
+    <div className="flex flex-col pt-12 gap-y-4 m-8 sm:m-12 sm:w-[343px] place-self-center">
       <div className="">
         <p>
           “Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”

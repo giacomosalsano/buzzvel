@@ -21,7 +21,7 @@ export default function Testimonials() {
       </div>
       <Button color="secondary" className="" >Request a Quote</Button>
       <div className="flex gap-x-4 mt-16 ">
-        <div className=" md:flex md:overflow-x-auto">
+        <div className="md:flex md:flex-row  md:gap-x-4">
           <Testimony testimony="Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod." imageProfile="user_image_profile2" name="Jane Cooper" description="10KWh"/>
           <Testimony className="hidden md:block" testimony="Vehicula sit sit pharetra bibendum ut risus accumsan. Purus, in metus, enim, ipsum morbi euismod pellentesque. Mattis pharetra accumsan eget est mi enim, id. Sit quam tortor eu tellus non, in euismod integer." imageProfile="user_image_profile3" name="Ralph Edwards" description="10KWh" />
           <Testimony className="hidden lg:block" testimony="Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet." imageProfile="user_image_profile4" name="Courtney Henry" description="10KWh" />

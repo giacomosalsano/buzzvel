@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="items-center h-screen">
+    <div className="items-center h-screen w-screen">
       <Header />
       <Presentation />
       <Introduction />

@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function LastPage() {
   return (
-    <div className="flex flex-col items-center pt-12 px-4 bg-primary">
+    <div className="flex flex-col items-center pt-12 bg-primary">
       <div>
         <div className="flex flex-col items-center text-center ">
           <span className="gap-x-2 mb-6">
@@ -20,7 +20,7 @@ export default function LastPage() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center mt-16 relative -left-6 w-[358px] drop-shadow-sm sm:left-0 sm:w-[640px] ">
+      <div className="flex justify-center mt-16 relative -left-6 w-[358px] drop-shadow-sm sm:right-64 sm:w-[640px] ">
         <Image src="/macbook.svg" alt="Mackbook illustration" width={800} height={400} />
       </div>
     </div>
