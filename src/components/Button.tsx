@@ -3,7 +3,7 @@ import { tv } from "tailwind-variants";
 import { FiArrowRight } from "react-icons/fi";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  size?: "sm" | "md" | "lg";
+  size?: "xs" | "sm" | "md" | "lg" | "2xl";
   color?: "primary" | "secondary";
   children: React.ReactNode;
 }
@@ -14,7 +14,7 @@ const button = tv({
     size: {
       xs: "text-xs px-2 py-1",
       sm: "text-sm px-4 py-2",
-      md: "text- px-6 py-3",
+      md: "text-md px-6 py-3",
       lg: "text-lg px-8 py-4",
       xl: "text-xl px-10 py-5",
       "2xl": "text-2xl px-12 py-6",

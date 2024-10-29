@@ -16,8 +16,15 @@ const config: Config = {
         white: "#FFFFFF",
         grey: "#475569",
         orange: "#D97706",
+        blue: '#0369A1',
       },
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+    }
   },
   plugins: [],
 };

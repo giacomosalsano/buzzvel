@@ -15,13 +15,13 @@ export default function LastPage() {
         <Button color="secondary">Request a Quote</Button>
         </div>
         <div className="mt-4">
-          <p className="text-white text-base font-extralight text-center w-[343px]">
+          <p className="text-white text-base font-extralight text-center w-[343px] place-self-center">
             Egestas fringilla aliquam leo
           </p>
         </div>
       </div>
-      <div className="flex justify-center mt-16 relative -left-6 drop-shadow-sm">
-        <Image src="/macbook.svg" alt="Mackbook illustration" width={400} height={400} />
+      <div className="flex justify-center mt-16 relative -left-6 w-[358px] drop-shadow-sm sm:left-0 sm:w-[640px] ">
+        <Image src="/macbook.svg" alt="Mackbook illustration" width={800} height={400} />
       </div>
     </div>
   )

@@ -7,14 +7,15 @@ interface TestimonyProps {
   imageProfile: React.ReactNode;
   name: string
   description: string
+  className?: string
 }
 
-export default function Testimony({  testimony, imageProfile, name, description }: TestimonyProps) {
+export default function Testimony({  testimony, imageProfile, name, description, className}: TestimonyProps) {
   return (
-    <div className="flex flex-col w-[343px] bg-white rounded-xl p-8 relative -right-6">
+    <div className={`flex w-[343px] bg-white rounded-xl p-8 hover:py-16 relative -right-5 shadow-md sm:right-0 md:h-[490px] md:flex md:flex-row ${className}`}>
         <div className="flex flex-col gap-y-4">
           <FiAlertCircle size={64} className="text-gray-400"/>
-          <div className="flex">
+          <div className="flex ">
             <p className="text-left">{testimony}</p>
           </div>
           <div className="flex gap-x-4 items-center w-[294px] align-baseline pt-4">

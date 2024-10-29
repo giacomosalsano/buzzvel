@@ -4,32 +4,32 @@ import Image from "next/image";
 
 export default function Presentation() {
   return (
-  <div className="flex flex-col px-4 pb-12">
-    <div className="z-0 relative bottom-12 left-8">
+  <div className="flex flex-col pb-12">
+    <div className="relative bottom-32 sm:bottom-32 sm:left-1">
           <Image
-            src="/workerImage.png"
+            src="/workerImage.svg"
             alt="Worker image"
             width={375}
             height={333}
             className="sm:w-[673px] sm:h-[694px] "
           />
     </div>
-    <div className="flex flex-col gap-y-6 items-center text-center">
-      <div className="flex flex-col gap-y-6">
-        <h1 className="text-black text-[40px] font-semibold text-balance">Get the Sun to Power Your Home</h1>
-        <h3 className="text-lg w-[343px]">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
+    <div className="flex flex-col gap-y-6 items-center text-center -mt-20 sm:-mt-24">
+      <div className="flex flex-col gap-y-6 items-center text-center">
+        <h1 className="text-black text-[40px] font-semibold text-balance sm:w-[600px]">Get the Sun to Power Your Home</h1>
+        <h3 className="text-lg w-[343px] ">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
       </div>
         <Button color="primary">Request a quote</Button>
     </div>
-    <div className="flex flex-col pt-12 gap-y-4">
-      <div className="text-left">
+    <div className="flex flex-col pt-12 gap-y-4 m-6 sm:m-12 sm:w-[343px] place-self-center">
+      <div className="">
         <p>
           “Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”
         </p>
       </div>
       <div className="flex gap-x-4 items-center ">
         <span className="flex-none">
-          <Image src="/user_image_profile.png" alt="User image profile" width={64} height={64} />
+          <Image src="/user_image_profile.svg" alt="User image profile" width={64} height={64} />
         </span>
         <div>
           <span>
