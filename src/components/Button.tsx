@@ -6,6 +6,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size?: "xs" | "sm" | "md" | "lg" | "2xl";
   color?: "primary" | "secondary";
   children: React.ReactNode;
+  className?: string;
 }
 
 const button = tv({
@@ -30,8 +31,8 @@ const button = tv({
   },
 });
 
-export default function Button({ size, color, children }: ButtonProps) {
+export default function Button({ size, color, children, className }: ButtonProps) {
   return (
-    <button className={button({ size, color })}>{children} <FiArrowRight size={24} /></button>
+    <button className={button({ size, color, className })}>{children} <FiArrowRight size={24} /></button>
   );
 }

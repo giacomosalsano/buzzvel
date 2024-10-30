@@ -17,6 +17,7 @@ const config: Config = {
         grey: "#475569",
         orange: "#D97706",
         blue: '#0369A1',
+        purple: "#7E22CE",
       },
     },
     screens: {

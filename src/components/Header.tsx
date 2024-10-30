@@ -5,8 +5,8 @@ import Button from "./Button";
 
 export default function Header() {
   return (
-    <div className="flex justify-between sm:relative sm:flex-row z-10 px-4 mt-3.5">
-      <div className="sm:flex sm:flex-row sm:gap-x-[38px] sm:items-center sm:align-middle">
+    <div className="flex justify-between sm:relative sm:flex-row z-10 px-4 mt-3.5 lg:mx-20">
+      <div className="sm:flex sm:flex-row sm:gap-x-[38px] sm:items-center sm:align-middle ">
         <div className="">
           <Image
             src="/soller_logo.svg"
