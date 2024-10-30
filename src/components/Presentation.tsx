@@ -16,21 +16,21 @@ export default function Presentation() {
     </div>
     <div className="flex flex-col gap-y-6 items-center text-center -mt-20 sm:-mt-24 md:place-self-start md:relative md:bottom-[420px] lg:ml-20 lg:bottom-[600px]">
       <div className="flex flex-col gap-y-6 items-center text-center ">
-        <h1 className="text-black text-[40px] font-semibold text-balance sm:w-[400px] md:w-[340px] md:text-start md:pl-8 lg:pl-2 ">Get the Sun
+        <h1 className="text-black text-[40px] font-semibold text-balance sm:w-[400px] md:w-[340px] md:text-start md:pl-8 lg:pl-2 xl:text-[72px] xl:w-[600px]">Get the Sun
           to Power Your Home</h1>
-        <h3 className="text-lg w-[343px] md:text-start md:pl-8 lg:pl-2">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
+        <h3 className="text-lg w-[343px] md:text-start md:pl-8 lg:pl-2 xl:text-2xl xl:w-[600px]">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h3>
       </div>
-        <div className="md:place-self-start md:pl-8 lg:pl-2">
+        <div className="md:place-self-start md:pl-8 lg:pl-2 ">
           <Button color="primary">Request a quote</Button>
         </div>
     </div>
     <div className="flex flex-col pt-12 gap-y-4 m-8 sm:m-12 sm:w-[343px] place-self-center md:place-self-start md:relative md:bottom-[440px] lg:ml-20 lg:bottom-[600px]">
       <div className="">
-        <p>
+        <p className="text-lg xl:text-2xl xl:w-[600px]">
           “Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”
         </p>
       </div>
-      <div className="flex gap-x-4 items-center ">
+      <div className="flex gap-x-4 items-center">
         <span className="flex-none">
           <Image src="/user_image_profile.svg" alt="User image profile" width={64} height={64} />
         </span>

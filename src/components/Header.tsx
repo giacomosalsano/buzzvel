@@ -23,9 +23,11 @@ export default function Header() {
         </div>
       </div>
       <div>
-        <div className="invisible sm:visible sm:flex sm:flex-row sm:gap-x-4 sm:items-center text-blue sm:text-xs">
-          <RiHeadphoneLine  size={16}/> <p>555 818 282</p>
-          <Button size="sm" color="primary">Request a quote</Button>
+        <div className="invisible sm:visible sm:flex sm:flex-row sm:gap-x-4 sm:items-center text-blue sm:text-xs xl:text-base">
+          <RiHeadphoneLine className="xl:hidden" size={16}/> <p className="xl:hidden">555 818 282</p>
+          <RiHeadphoneLine className="hidden xl:flex" size={24}/> <p className="hidden xl:flex">555 818 282</p>
+          <Button className="xl:hidden" size="sm" color="primary">Request a quote</Button>
+          <Button className="hidden xl:flex" color="primary">Request a quote</Button>
         </div>
       </div>
     </div>
