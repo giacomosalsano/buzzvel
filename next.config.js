@@ -3,6 +3,8 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    path: '',
+    loader: 'default'
   },
 }
 
