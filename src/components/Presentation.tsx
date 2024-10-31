@@ -1,11 +1,11 @@
 import React, { JSX } from "react";
-import Button from "./Button";
+import Button from "./ui/Button";
 import Image from "next/image";
 
 export default function Presentation() {
   return (
   <div className="flex flex-col pb-12 ">
-    <div className="relative bottom-32 sm:place-self-end">
+    <div className="relative bottom-32 sm:place-self-end right-0 justify-end">
           <Image
             src="/workerRight.svg"
             alt="Worker image"
@@ -14,7 +14,7 @@ export default function Presentation() {
             className="sm:w-[540px] sm:h-[540px] lg:w-[673px] lg:h-[694px] "
           />
     </div>
-    <div className="flex flex-col gap-y-6 items-center text-center -mt-20 sm:-mt-24 md:place-self-start md:relative md:bottom-[420px] lg:ml-20 lg:bottom-[600px]">
+    <div className="flex flex-col gap-y-6 items-center text-center -mt-20 sm:-mt-24 md:place-self-start md:relative md:bottom-[420px] lg:ml-20 lg:bottom-[600px] ">
       <div className="flex flex-col gap-y-6 items-center text-center ">
         <h1 className="text-black text-[40px] font-semibold text-balance sm:w-[400px] md:w-[340px] md:text-start md:pl-8 lg:pl-2 xl:text-[72px] xl:w-[600px]">Get the Sun
           to Power Your Home</h1>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Section from "./Section";
+import Section from "./ui/Section";
 
 export default function Services() {
   return (

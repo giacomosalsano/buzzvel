@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./Button";
-import Testimony from "./Testimony";
+import Button from "./ui/Button";
+import Testimony from "./ui/Testimony";
 import Image from "next/image";
 
 export default function Testimonials() {

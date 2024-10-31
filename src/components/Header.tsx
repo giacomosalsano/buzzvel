@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { RiHeadphoneLine } from "react-icons/ri";
-import Button from "./Button";
+import Button from "./ui/Button";
 
 export default function Header() {
   return (
