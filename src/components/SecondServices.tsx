@@ -5,7 +5,7 @@ import Section from "./ui/Section";
 export default function Services() {
   return (
     <div className="pb-12 mt-16 lg:relative lg:justify-between lg:-mt-[750px] xl:mb-[420px] xl:overflow-hidden">
-      <div className="flex flex-col gap-y-6 items-center text-center mb-16 lg:relative lg:right-32 lg:top-72 lg:mr-80 xl:translate-y-[380px] xl:-translate-x-96">
+      <div className="flex flex-col gap-y-6 items-center text-center mb-16 lg:relative lg:-translate-x-[490px] lg:top-72 lg:mr-80 xl:translate-y-[380px] xl:-translate-x-96">
         <span className="gap-x-2">
           <p className="text-orange text-base font-medium lg:text-start xl:text-xl"> Services
           </p>
@@ -16,7 +16,7 @@ export default function Services() {
           Auctor turpis semper id sit ornare maecenas lectus sed.
         </p>
       </div>
-      <div className="flex flex-col gap-y-6 lg:relative lg:right-48 lg:top-72 lg:w-[600px] xl:translate-y-[380px] xl:translate-x-[530px] ">
+      <div className="flex flex-col gap-y-6 lg:relative lg:translate-x-64 lg:top-72 lg:w-[600px] xl:translate-y-[380px] xl:translate-x-[530px] ">
         <div className="flex flex-row-2 justify-center gap-y-6 gap-x-12 sm:gap-x-24 md:gap-x-48 lg:ml-96 lg:gap-x-2 xl:gap-x-12 xl:ml-0">
           <Section title="Et mauris" description="Posuere quis sed mauris non curabitur pretium elementum eget. Feugiat sed maecenas eu accumsan tristique." />
           <Section title="Eget sit" description="Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa. " />
