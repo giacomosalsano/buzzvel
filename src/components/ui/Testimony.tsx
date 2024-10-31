@@ -14,7 +14,7 @@ export default function Testimony({  testimony, imageProfile, name, description,
   return (
     <div className={`flex w-[343px] content-center bg-white rounded-xl p-8 hover:h-[490px] relative -right-5 shadow-md sm:right-0 md:h-[442px] md:text-lg lg:w-[364px] lg:overflow-auto  ${className}`}>
         <div className="flex flex-col gap-y-4 ">
-          <FiAlertCircle size={64} className="text-gray-400"/>
+          <FiAlertCircle size={64} className="text-white"/>
           <div className="flex ">
             <p className="text-left">{testimony}</p>
           </div>
