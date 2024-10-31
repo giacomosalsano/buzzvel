@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Soller: Solar Energy Web Page - ☀️
 
-## Getting Started
+**Soller** is a web application designed to promote and facilitate solar energy solutions for residential customers. Built using modern web technologies as Next.js, TypeScript, and Tailwind CSS, the project focuses on providing an intuitive interface for users interested in solar power installations.
 
-First, run the development server:
+## 1. Project Goals - 🎯
+- Create an engaging platform for solar energy solutions; 
+- Provide easy access to solar power information and quotes;
+- Showcase the benefits and services of solar energy;
+- Enable user interactions for quote requests;
+- Present testimonials from existing customers;
+- Offer a responsive design for all device types.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 2. Scope - 📝
+The project currently encompasses:
+- A landing page with multiple sections;
+- Service showcase;
+- Testimonial system;
+- Quote request functionality;
+- Responsive design (Mobile, Tablet, Desktop);
+- Potential for multi-language support.
+
+## 3. Key Features - 🌟
+
+The **Soller Web Page** includes several modern design and functional features:
+
+- A clean and modern UI/UX design that enhances user experience;
+- A fully responsive layout that adjusts to different screen sizes;
+- Reusable components for consistency across the site;
+- Type-safe development with TypeScript;
+- Optimized images using Next.js Image component for faster loading;
+- Custom button component with different size and color variants;
+- Testimonials carousel for user feedback;
+- Service sections featuring engaging illustrations.
+
+## 4. Configuration - 🛠
+
+The project includes pre-configured support for:
+
+- TypeScript for static type checking;
+- Tailwind CSS for utility-first CSS styling;
+- PostCSS for CSS preprocessing and transformations;
+- Next.js for server-side rendering and static generation.
+
+## 5. Technologies Used -  🚀
+### Frontend:
+- **Next.js** 15.0.0;
+- **React** 19.0.0;
+- **TypeScript**;
+- **Tailwind CSS**;
+- **React Icons**;
+- **Tailwind Variants**.
+
+### Development Tools:
+- **Node.js**;
+- **npm/yarn**;
+- **Git**;
+- **VS Code** (recommended).
+
+## 6. Project Structure - 📁
+
+```
+src/
+├── components/
+│   ├── Header/
+│   ├── Introduction/
+│   ├── Services/
+│   ├── SecondServices/
+│   ├── Testimonials/
+│   ├── LastPage/
+│   └── Footer/
+├── ui/
+│   ├── Button/
+│   ├── Card/
+│   ├── Container/
+│   ├── Typography/
+│   └── Icons/
+├── styles/
+├── pages/
+└── public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The main components of the project include:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Header**: A responsive navigation bar that includes the logo, menu items, and contact information;
+- **Introduction**: The hero section introducing the main value proposition of the company;
+- **Services & SecondServices**: Two distinct service sections that showcase the company’s offerings, each with a unique layout;
+- **Testimonials**: A carousel section that displays various customer reviews;
+- **LastPage**: A final call-to-action (CTA) section with a MacBook illustration to engage users;
+- **Footer**: A simple footer with the company’s logo, copyright information, and navigational links.
 
-## Learn More
+Each component is modular and built with reusability and scalability in mind, ensuring a clean structure and ease of maintenance.
 
-To learn more about Next.js, take a look at the following resources:
+### 🎨 Styling:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project uses Tailwind CSS with custom configurations, providing a visually consistent and responsive design. Key styling features include:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Custom color palette matching the company’s branding;
+- Defined breakpoints for responsive behavior on various devices;
+- Custom font (Roboto) for a modern look;
+- Extended theme configurations for tailored design needs.
 
-## Deploy on Vercel
+### 📱 Responsive Design and Compatibility:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The layout is fully responsive, adapting to different screen sizes with Tailwind’s breakpoints:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Mobile: `sm` (640px);
+- Tablet: `md` (768px);
+- Desktop: `lg` (1024px);
+- Wide: `xl` (1920px).
+
+
+## 7. Getting Started - 🧑🏻‍💻
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/giacomosalsano/buzzvel.git
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+   or
+   ```bash
+   yarn dev
+   ```
+
+4. Open http://localhost:3000 in your browser to view the project.
+
+#### This setup will allow you to run the application locally, making it easier to test and debug the project.
+
+
+## 8. License - 📄
+
+**All rights reserved. © 2023 Buzzvel, Inc.**
